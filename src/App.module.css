@@ -1,0 +1,170 @@
+.menu {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    gap: 20px;
+    z-index: 999;
+    background-color: #d01d20;
+    box-shadow: 0px 3px 20px #000000;
+}
+
+.menu div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.s1 {
+    background-image: url(./public/Fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.left {
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+.imgPerfil {
+    width: 600px;
+    height: 600px;
+    transition: all 200ms ease-in-out;
+}
+
+.imgPerfil:hover {
+    transform: scale(1.1);
+}
+
+.right {
+    width: 500px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 22px;
+    background-color: #d3d3d3a7;
+    box-shadow: 0px 3px 20px #0000007c;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    border-top: 2px solid #000000;
+}
+
+.rodape a {
+    transition: all 500ms ease-in-out;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.rodape a:hover {
+    transform: translateY(-15px) scale(1.3);
+}
+
+#s2{
+    min-height: 100vh;
+    padding-top: 80px;
+    background-color: black;
+}
+
+.card h3{
+    color: white;
+}
+
+.card p{
+    color: white;
+}
+
+.wrap-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    width: 700px;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 80px;
+    transition: all 200ms linear;
+    border-radius: 16px;
+}
+
+.card:hover img{
+    transform: scale(1.1);
+}
+
+#s3{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(./Images/FUNDO2.jpg);
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.475);
+    z-index: 999;
+    animation: fromTop 2s ease-in-out;
+}
+
+
+@media (width <=768px) {
+    .s1 {
+        padding-top: 50px;
+        gap: 0;
+    }
+
+    .left {
+        width: 300px;
+        height: 300px;
+    }
+
+    .imgPerfil {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .right {
+        padding: 20px;
+        margin-top: -150px;
+    }
+
+    .s4 h2 {
+        font-size: 48px;
+        letter-spacing: 5px;
+    }
+}
