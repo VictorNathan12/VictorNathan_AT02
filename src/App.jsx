@@ -49,16 +49,9 @@ function App() {
           ></iframe>
 
           <div className={styles.second}>
-            <h2>Sobre</h2>
+            <h2> A importância dos direitos humanos.</h2>
             <p>
-              Direitos humanos são normas que reconhecem e protegem a dignidade
-              de todas as pessoas, garantindo que vivam de forma justa e
-              igualitária. Eles são universais, inalienáveis e intrínsecos a
-              cada indivíduo pelo simples fato de existir, regendo a relação
-              entre as pessoas e o Estado, que tem a obrigação de respeitá-los e
-              promovê-los através de leis e tratados. Os direitos humanos
-              abrangem áreas como vida, liberdade, igualdade, saúde, educação,
-              trabalho e segurança
+              Os direitos humanos visam garantir a dignidade e a integridade da pessoa, especialmente frente ao Estado e suas estruturas de poder, e a cidadania assegura o equilíbrio entre os direitos e deveres do indivíduo em relação à sociedade e da sociedade em relação ao indivíduo.
             </p>
           </div>
         </section>
